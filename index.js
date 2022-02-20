@@ -40,7 +40,8 @@ function play(questions){
     console.log("Congrats! That's correct\n");
     score++;
   }else{
-    console.log("Sorry! That's incorrect\n")
+    console.log("Sorry! That's incorrect")
+    console.log("Correct answer is "+questions.answer+"\n");
   }
 }
 
